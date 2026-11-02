@@ -1,0 +1,80 @@
+{
+  "brand": {
+    "name": "QuickMenu",
+    "tagline": "Direct Restaurant Ordering App",
+    "subTagline": "Zero Commission Food Ordering for Local Restaurants!",
+    "offerText": "Get 1st Month Free & Zero Commission!",
+    "logoUrl": "branding/logo.png",
+    "primaryColor": "#ea580c",
+    "accentColor": "#f97316",
+    "storeBadgeUrl": "branding/google-play-badge.png",
+    "qrCodeUrl": "branding/qrcode.png"
+  },
+  "language": "ta",
+  "voiceover_scripts": [
+    "ஆன்லைன் உணவு டெலிவரி ஆப்களுக்கு 30% கமிஷன் கொடுத்து நஷ்டப்படுறீங்களா?",
+    "கவலைப்படாதீங்க! இதோ உங்க சொந்த கடைக்கான குயிக்மெனு செயலி!",
+    "வாடிக்கையாளர்கள் நேரடியாக ஆர்டர் செய்ய வாட்ஸ்அப் மெனு, ஆன்லைன் கட்டணம், உடனடி ஆர்டர் டிராக்கிங்!",
+    "கமிஷன் இல்லாம 100% லாபமும் உங்களுக்கே! நிம்மதியா கடையை நடத்துங்க!",
+    "இன்றே குயிக்மெனு செயலியை பதிவிறக்கம் செய்யுங்கள்! முதல் மாதம் முற்றிலும் இலவசம்!"
+  ],
+  "scene1": {
+    "badge": "ஹோட்டல் & ரெஸ்டாரண்ட் உரிமையாளர்களின் கவலை!",
+    "headline": "30% கமிஷன் கொடுத்து லாபம் இல்லாமல் தவிக்கிறீர்களா?",
+    "subhead": "உங்க உழைப்புக்கு உங்களுக்கே லாபம் கிடைக்க வேண்டாமா?",
+    "bgImageUrl": "footage/ad2_scene1_night_tally.jpg"
+  },
+  "scene2": {
+    "badge": "ஜீரோ கமிஷன் டிஜிட்டல் புரட்சி!",
+    "headline": "உங்க கடைக்கு இனி சொந்த ஆன்லைன் மெனு & ஆர்டரிங்!",
+    "subhead": "நேரடி வாடிக்கையாளர்கள், நேரடி லாபம்!",
+    "bgImageUrl": "footage/ad2_scene2_discovery.jpg"
+  },
+  "scene3": {
+    "screens": [
+      {
+        "badge": "Digital QR Menu",
+        "title": "வாடிக்கையாளர்களுக்கு அழகான டிஜிட்டல் மெனு!",
+        "description": "மேஜையில் அல்லது வாட்ஸ்அப்பில் 1-ஸ்கேன் ஆர்டரிங்",
+        "imageUrl": "screenshots/shot-05.jpg",
+        "accentColor": "#ea580c"
+      },
+      {
+        "badge": "WhatsApp Orders",
+        "title": "நேரடி வாட்ஸ்அப் ஆர்டர்கள் & கட்டணம்!",
+        "description": "எந்த இடைத்தரகரும் இல்லாமல் 100% பணம் உங்களுக்கே",
+        "imageUrl": "screenshots/shot-02.jpg",
+        "accentColor": "#25D366"
+      },
+      {
+        "badge": "Sales Reports",
+        "title": "தினசரி விற்பனை மற்றும் லாப அறிக்கைகள்!",
+        "description": "மொத்த விற்பனை மற்றும் வாடிக்கையாளர் விவரங்கள் ஒரே இடத்தில்",
+        "imageUrl": "screenshots/shot-06.jpg",
+        "accentColor": "#3B82F6"
+      },
+      {
+        "badge": "Customer Loyalty",
+        "title": "வாடிக்கையாளர்களை திரும்ப வரவழைக்கும் ஆஃபர்கள்!",
+        "description": "வழக்கமான வாடிக்கையாளர்களுக்கு பிரத்யேக தள்ளுபடிகள்",
+        "imageUrl": "screenshots/shot-08.jpg",
+        "accentColor": "#F59E0B"
+      }
+    ]
+  },
+  "scene4": {
+    "badge": "முழு லாபமும் உங்கள் கைக்கே!",
+    "headline": "இனி யாரிடமும் கமிஷன் கொடுத்து ஏமாற வேண்டாம்!",
+    "subhead": "உங்க பிராண்ட், உங்க வாடிக்கையாளர்கள், 100% உங்கள் லாபம்!",
+    "bgImageUrl": "footage/ad2_scene4_closing.jpg"
+  },
+  "scene5": {
+    "headline": "Get 1st Month Free & Zero Commission!",
+    "bullets": [
+      "Zero Commission Forever",
+      "Setup in Under 10 Minutes",
+      "Direct Bank UPI Settlements"
+    ]
+  }
+}
+

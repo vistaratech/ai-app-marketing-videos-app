@@ -1,7 +1,7 @@
 {
   "name": "video",
   "version": "1.0.0",
-  "description": "My Remotion video",
+  "description": "KadaiBook 30-second marketing ad (vertical and widescreen)",
   "repository": {},
   "license": "UNLICENSED",
   "engines": {
@@ -10,6 +10,7 @@
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.539",
+    "lucide-react": "^1.66.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.539"
@@ -20,11 +21,19 @@
     "@types/web": "0.0.166",
     "eslint": "10.12.0",
     "prettier": "3.8.1",
+    "qrcode": "^1.5.4",
     "typescript": "5.9.3"
   },
   "scripts": {
     "dev": "remotion studio",
+    "studio": "remotion studio",
     "build": "remotion bundle",
+    "render": "npm run render:vertical",
+    "render:vertical": "remotion render KadaiBookAd out/kadaibook-ad-vertical.mp4",
+    "render:wide": "remotion render KadaiBookAdWide out/kadaibook-ad-wide.mp4",
+    "render:all": "npm run render:vertical && npm run render:wide",
+    "still": "remotion still KadaiBookAd out/still.png --frame=60",
+    "still:wide": "remotion still KadaiBookAdWide out/still-wide.png --frame=60",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc"
   },
